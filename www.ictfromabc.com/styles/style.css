@@ -12,7 +12,7 @@ nav{
   display: flex;
   height: 100px;
   width: 100%;
-  background: #1b1b1bef;
+  background: #1b1b1bee;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
@@ -37,7 +37,7 @@ nav ul li a{
   font-size: 18px;
   font-weight: 500;
   padding: 8px 15px;
-  border-radius: 5px;
+  border-radius: 7px;
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
@@ -52,13 +52,39 @@ nav .menu-btn i{
   cursor: pointer;
   display: none;
 }
+
+.btn_logout{
+  background-color: #e70000e7;
+  color: #ffa6a6;
+  
+}
+
+.btn_logout:hover {
+  background-color: #b60000;
+  color: #ffa6a6;
+}
+
 input[type="checkbox"]{
   display: none;
 }
+
+/*Ravindu sir quation image*/
+
+.div_quat {
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.img_quat {
+  width: 400px;
+}
+
 /*lessons-boxes*/
 
 .div_space {
-  height: 300px;
+  height: 150px;
 }
 
 .content {
@@ -66,6 +92,7 @@ input[type="checkbox"]{
   align-items: center;
   flex-wrap: wrap;
   display: flex;
+  margin: 30px;
 }
 
 .div_lesson_box {
@@ -76,7 +103,7 @@ input[type="checkbox"]{
   width: 300px;
   font-weight: 700;
   background-color: #ffffff;
-  border-radius: 15px;
+  border-radius: 25px;
   padding-bottom: 30px;
   border:2px solid #efefef;
   margin: 2.8%;
@@ -84,12 +111,12 @@ input[type="checkbox"]{
 }
 
 .div_lesson_box:hover {
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.06);
 }
 
 .img_ravindu_sir {
   width: 100%;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 25px 25px 0px 0px;
 }
 
 .p_lesson_name {
@@ -111,6 +138,58 @@ input[type="checkbox"]{
 .btn_view_class:hover {
   letter-spacing: 1px;
 }
+
+/*PDF and Iframe*/
+
+.div_pdf_and_vid {
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0% 5% 0% 5%;
+}
+
+.ifm_pdf_and_vid {
+  border: none;
+  border-radius: 10px;
+  width: 60%;
+  height: 500px;
+}
+
+.btn_pdf_vid {
+  background-color: #dfdfdf;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  width: 220px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  transition-duration: 0.2s;
+}
+
+.btn_pdf_vid:hover {
+  background-color: #dfc5c5;
+  color: #e10000;
+}
+
+.ifm_div_btn_space {
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  width: 350px;
+  height: 200px;
+}
+
+#btn_down {
+  background-color: #02d97f;
+}
+
+#btn_down:hover {
+  color: #003b2a;
+}
+
 /*maxd-width-all*/
 
 @media (max-width: 1000px){
