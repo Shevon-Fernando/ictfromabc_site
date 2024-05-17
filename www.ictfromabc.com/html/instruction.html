@@ -1,0 +1,34 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <title>ictfromabc</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <div><img src="../pictures/logo.png" class="logo"></div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="../html/index.html">Lessons</a></li>
+        <li><a href="#">Timetable</a></li>
+        <li><a class="active" href="#">Instructions</a></li>
+        <li><a href="../html/profile.html">Profile</a></li>
+        <li><a href="#" class="btn_logout">Logout</a></li>
+      </ul>
+    </nav>
+    <div class="div_space">&nbsp</div>
+    <div class="div_pdf_and_vid">
+        <iframe src="../pdf/Website Registration Details Version3.pdf" class="ifm_pdf_and_vid" name="iframe_pdf"></iframe>
+        <div class="ifm_div_btn_space">
+          <a href="../pdf/Website Registration Details Version3.pdf" target="iframe_pdf"><button class="btn_pdf_vid">PDF</button></a>
+          <a href="../videos/.mp4" target="iframe_pdf"><button class="btn_pdf_vid">Video</button></a>
+          <a href="../pdf/Website Registration Details Version3.pdf" download><button class="btn_pdf_vid" id="btn_down">Download PDF</button></a>
+        </div>
+    </div>
+  </body>
+</html>
